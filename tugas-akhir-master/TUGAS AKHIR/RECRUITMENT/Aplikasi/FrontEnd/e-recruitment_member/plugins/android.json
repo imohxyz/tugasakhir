@@ -1,0 +1,34 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "id.shakti.erecruitment_pelamar"
+    },
+    "cordova-plugin-clipboard2": {
+      "PACKAGE_NAME": "id.shakti.erecruitment_pelamar"
+    },
+    "cordova-plugin-fcm": {
+      "PACKAGE_NAME": "id.shakti.erecruitment_pelamar"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "id.shakti.erecruitment_pelamar"
+    },
+    "phonegap-plugin-barcodescanner": {
+      "ANDROID_SUPPORT_V4_VERSION": "27.+",
+      "PACKAGE_NAME": "id.shakti.erecruitment_pelamar"
+    },
+    "skwas-cordova-plugin-datetimepicker": {
+      "PACKAGE_NAME": "id.shakti.erecruitment_pelamar"
+    },
+    "cordova-plugin-globalization": {
+      "PACKAGE_NAME": "id.shakti.erecruitment_pelamar"
+    }
+  },
+  "dependent_plugins": {}
+}

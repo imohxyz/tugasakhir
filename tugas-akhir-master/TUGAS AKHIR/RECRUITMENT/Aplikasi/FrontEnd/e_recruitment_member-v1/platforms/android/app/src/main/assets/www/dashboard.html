@@ -1,0 +1,101 @@
+<div class="page">
+    <div class="has-header content">
+<!-- open header -->
+  <div class="header amber-600">
+    <div class="left">
+      <button class="icon ion-navicon-round" onclick="openMenu('dashboard_menu')"></button>
+    </div>
+    <h1 class="title align-center text-white" id="coba">Bengkel Bumi App</h1>
+    <div class="right">
+      <button class="icon ion-android-more-vertical" onclick="openPopover('dashboard_pop')"></button>
+    </div>
+  </div>
+  <!-- close header -->
+
+<!-- open menu -->
+    <div class="menu amber-700 cover" id="dashboard_menu">
+
+    <div include="menu"></div>
+  </div>
+  <!-- close menu -->
+
+  <!-- open popover -->
+<div class="popover" id="dashboard_pop">
+    <div include="popover"></div>
+  </div>
+  <!-- close popover -->
+
+    <div class="padding">
+    <div class="space"></div>
+      <div class="list">
+          <div class="item border-green">
+            <div class="left" style="margin-right: 10px;">
+              <div class="icon-circle text-green border-green">
+                <i class="icon ion-briefcase"></i>
+              </div>
+            </div>
+            <h2 class="text-green text-strong">Saldo BUMP</h2>
+            <p class="text-grey-800" id="saldo_anggota">Rp0,-</p>
+          </div>
+      </div>
+    <div class="space"></div>
+          <div class="row-around">
+        <div class="col-20" style="text-align: center;">
+          <div class="">
+            <img src="img/sayur.png" alt="">
+          </div>
+        <h2 class="strong text-black text-medium">Sayur</h2>
+        </div>
+        <div class="col-20" style="text-align: center;">
+          <div>
+            <img src="img/jamu.png" alt="">
+          </div>
+        <h2 class="strong text-black text-medium">Jamu</h2>
+        </div>
+        <div class="col-20" style="text-align: center;">
+          <div class="">
+            <img src="img/jst.png" alt="">
+          </div>
+        <h2 class="strong text-black text-medium">JST</h2>
+        </div>
+        </div>
+
+      <div class="space"></div>
+      <div class="row-around">
+        <div class="col-20" style="text-align: center;">
+        <div class="">
+            <img src="img/jagung.png" alt="">
+          </div>
+        <h2 class="strong text-black text-medium">Jagung</h2>
+        </div>
+        <div class="col-25" style="text-align: center;">
+        <div class="">
+            <img src="img/padi.png" alt="">
+          </div>
+        <h2 class="strong text-black text-medium">Padi</h2>
+        </div>
+        <div class="col-20 transparent">
+        </div>
+      </div>
+
+      <div class="space"></div>
+      <div class="list">
+          <div class="item border-green">
+            <div class="left" style="margin-right: 10px;">
+              <div class="icon-circle text-green border-green">
+                <i class="icon ion-person"></i>
+              </div>
+            </div>
+            <h2 class="text-green text-strong">Total Member</h2>
+            <p class="text-grey-800 text-strong" id="jumlah_anggota">0</p>
+          </div>
+      </div>
+
+    <div class="space"></div>
+    <div class="space"></div>
+
+  </div>
+
+  </div>
+
+</div>

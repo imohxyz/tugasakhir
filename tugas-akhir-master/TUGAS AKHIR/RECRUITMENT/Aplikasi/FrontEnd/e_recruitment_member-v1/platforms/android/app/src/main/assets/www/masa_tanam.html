@@ -1,0 +1,104 @@
+<div class="page">
+  <div class="content has-header">
+  <!-- open header -->
+  <div class="header amber-600">
+    <div class="left">
+      <button class="icon ion-navicon-round" onclick="openMenu('masa_tanam_menu')"></button>
+    </div>
+    <h1 class="title align-center text-white">Bengkel Bumi App</h1>
+    <div class="right">
+      <button class="icon ion-android-more-vertical" onclick="openPopover('masa_tanam_pop')"></button>
+
+    </div>
+  </div>
+  <!-- close header -->
+
+<!-- open menu -->
+  <div class="menu amber-700 cover" id="masa_tanam_menu">
+    <div include="menu"></div>
+  </div>
+  <!-- close menu -->
+
+  <!-- open popover -->
+<div class="popover" id="masa_tanam_pop">
+    <div include="popover"></div>
+  </div>
+  <!-- close popover -->
+
+<h2 class="text-strong padding text-amber-600" style="margin-top: 10px;">Masa Tanam</h2>
+    <p>
+      <div class="list">
+        <div class="item">
+      <div class="item">
+        <h2>Area</h2>
+        <div class="space"></div>
+        <select>
+          <option>Pilih luas area</option>
+          <option>1 Ha</option>
+          <option>2 Ha</option>
+          <option>3 Ha</option>
+        </select>
+      </div>
+      <div class="item">
+        <h2>Jenis Tanaman</h2>
+          <div class="item" data="has_produk">
+            <p>${nama}</p>
+            <div class="right">
+              <input type="radio" name="masa_produk" id="masa_produk" value="${id}" class="teal">
+            </div>
+          </div>
+          <!-- <div class="item">
+            <p>Jamu</p>
+            <div class="right">
+              <input type="radio" name="masa_produk" id="masa_produk" value="4" class="teal">
+            </div>
+          </div>
+          <div class="item">
+            <p>JST</p>
+            <div class="right">
+              <input type="radio" name="masa_produk" id="masa_produk" value="3" class="teal">
+            </div>
+          </div>
+          <div class="item">
+            <p>Jagung</p>
+            <div class="right">
+              <input type="radio" name="masa_produk" id="masa_produk" value="2" class="teal">
+            </div>
+          </div>
+          <div class="item">
+            <p>Padi</p>
+            <div class="right">
+              <input type="radio" name="masa_produk" id="masa_produk" value="1" class="teal">
+            </div>
+          </div> -->
+          </div>
+          <div class="item" onclick="tanggal_tanam()">
+        <label>Tanggal Tanam : </label>
+          <div class="right">
+            <div class="icon-circle text-red border-red">
+              <i class="icon ion-ios-calendar"></i>
+            </div>
+          </div>
+          <p class="text-black-500" id="tanggal_tanam">Klik Disini</p>
+      </div>
+<!--       <div class="item" onclick="tanggal_panen()">
+        <label>Tanggal Panen : </label>
+          <div class="right">
+            <div class="icon-circle text-red border-red">
+              <i class="icon ion-ios-calendar"></i>
+            </div>
+          </div>
+          <p class="text-black-500" id="tanggal_panen">Klik Disini</p>
+      </div> -->
+      <div class="item">
+         <button class="amber-600 text-white full" style="border-radius: 25px; width: 100%;font-style: 20px;" onclick="loadingElement('btn_masa_tanam');add_masa_tanam();" id="btn_masa_tanam">Tambah</button>
+      </div>
+
+
+      
+      </div>
+      </div>
+    </p>
+
+</div>
+</div>

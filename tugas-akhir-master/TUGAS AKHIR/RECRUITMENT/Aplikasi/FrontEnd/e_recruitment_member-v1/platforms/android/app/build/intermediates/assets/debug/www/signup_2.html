@@ -1,0 +1,111 @@
+<div class="page">
+    <div class="content white" style="min-height: 100%; min-width: 100%;">
+    <div class="header amber-600">
+      <h1 class="align-center text-white">Input Data Anggota</h1>
+    </div>
+      <div class="space"></div>
+      <div class="space"></div>
+      <div class="space"></div>
+         <div class="list">
+
+			<div class="item label-fixed">
+				<label>Pilih Tipe *</label>
+			    <select id="daftar2_tipe">
+			    	<option value="">----- Klik Disini -----</option>
+			      	<option value="4">Umum</option>
+			      	<option value="1">Silver</option>
+			      	<option value="2">Gold</option>
+			      	<option value="3">Premium</option>
+			    </select>
+		  	</div>
+
+		  <div class="item label-float" data="data_register">
+		    <label>Nama *</label>
+		    <input type="text" value="${nama}" disabled>
+		  </div>
+
+		  <div class="item label-float">
+		    <label>No. KTP *</label>
+		    <input type="number" id="daftar2_ktp">
+		  </div>
+
+		  <div class="item label-float">
+		    <label>No. Rekening *</label>
+		    <input type="number" id="daftar2_rekening">
+		  </div>
+
+		  <div class="item label-float">
+		    <label>Alamat *</label>
+		    <input type="text" id="daftar2_alamat">
+		  </div>
+
+			<div class="item label-float">
+			    <label>RT *</label>
+			    <input type="number" id="daftar2_rt">
+			</div>
+
+		  	<div class="item label-float">
+				<label>RW *</label>
+			    <input type="number" id="daftar2_rw">
+			</div>
+
+			<div class="item label-fixed">
+				<label>Pilih Provinsi *</label>
+			    <select id="daftar2_provinsi">
+			      <option value="">----- Klik Disini -----</option>
+			      <option data="provinsi" value="${id}">${nama}</option>
+			    </select>
+		  	</div>
+
+		  	<div class="item label-fixed">
+				<label>Pilih Kota Kabupaten *</label>
+			    <select id="daftar2_kota">
+			      <option value="">----- Klik Disini -----</option>
+			      <option data="kota" value="${id}">${nama}</option>
+			    </select>
+		  	</div>
+
+		  	<div class="item label-fixed">
+				<label>Pilih Kecamatan *</label>
+			    <select id="daftar2_kecamatan">
+			      <option value="">----- Klik Disini -----</option>
+			      <option data="kecamatan" value="${id}">${nama}</option>
+			    </select>
+		  	</div>
+
+		  	<div class="item label-fixed">
+				<label>Pilih Kelurahan *</label>
+			    <select id="daftar2_kelurahan">
+			    	<option value="">----- Klik Disini -----</option>
+			    	<option data="kelurahan" value="${id}">${nama}</option>
+			    </select>
+		  	</div>
+
+			<div class="item label-float" data="data_register">
+				<label>Email *</label>
+			    <input type="text" value="${email}" disabled>
+			</div>
+
+		  	<div class="item label-float">
+				<label>No Telepon *</label>
+			    <input type="number" id="daftar2_notel">
+			</div>
+
+			<div class="item label-float">
+				<label>Lahan (Hektar) *</label>
+			    <input type="number" id="daftar2_lahan">
+			</div>
+
+		  <div class="item">
+		    <button class="teal amber-600 text-white full" style="border-radius: 25px;" onclick="loadingElement('btn_lanjut','Tunggu Sebentar...');register_2();" id="btn_lanjut">LANJUT</button>
+		  </div>
+		</div>
+
+    </p>
+  </div>
+      
+      <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="mobileui/mobileui.js"></script>
+      <script type="text/javascript" src="js/index.js"></script>
+    </div>
+</div>

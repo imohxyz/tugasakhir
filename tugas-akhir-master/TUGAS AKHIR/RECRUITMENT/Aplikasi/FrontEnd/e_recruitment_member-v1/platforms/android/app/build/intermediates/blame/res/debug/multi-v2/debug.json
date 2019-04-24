@@ -1,0 +1,48 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\IMOH\\bengkelbumi\\APPS\\Frontend\\bbmapp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\IMOH\\bengkelbumi\\APPS\\Frontend\\bbmapp\\platforms\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "155,55,96",
+                        "endColumns": "63,40,58",
+                        "endOffsets": "214,91,150"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,119,160",
+                        "endColumns": "63,40,58",
+                        "endOffsets": "114,155,214"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\IMOH\\Tugas Akhir\\TUGAS AKHIR\\RECRUITMENT\\Aplikasi\\FrontEnd\\e_recruitment_member-v1\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\IMOH\\Tugas Akhir\\TUGAS AKHIR\\RECRUITMENT\\Aplikasi\\FrontEnd\\e_recruitment_member-v1\\platforms\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "-1,2,-1",
+                        "startColumns": "-1,4,-1",
+                        "startOffsets": "-1,55,-1",
+                        "endColumns": "-1,58,-1",
+                        "endOffsets": "-1,109,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,119,178",
+                        "endColumns": "63,58,58",
+                        "endOffsets": "114,173,232"
+                    }
+                }
+            ]
+        }
+    ]
+}

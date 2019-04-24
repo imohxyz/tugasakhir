@@ -1,0 +1,66 @@
+<div class="page">
+  <div class="content white has-header">
+  <!-- open header -->
+  <div class="header amber-600">
+    <div class="left">
+      <button class="icon ion-navicon-round" onclick="openMenu('transaksi_menu')"></button>
+    </div>
+    <h1 class="title align-center text-white">Bengkel Bumi App</h1>
+    <div class="right">
+      <button class="icon ion-android-more-vertical" onclick="openPopover('transaksi_pop')"></button>
+    </div>
+  </div>
+  <!-- close header -->
+
+<!-- open menu -->
+    <div class="menu amber-700 cover" id="transaksi_menu">
+    <div include="menu"></div>
+  </div>
+  <!-- close menu -->
+
+  <!-- open popover -->
+<div class="popover" id="transaksi_pop">
+    <div include="popover"></div>
+  </div>
+  <!-- close popover -->
+<h2 class="text-strong padding text-amber-600">Transaksi</h2>
+    <p>
+      <div class="space"></div>
+      <div class="space"></div>
+      <div class="row-around">
+        <a class="col-20" style="text-align: center;" onclick="openPage('saldo_anda',tampil_saldo)">
+        <div class="">
+            <img src="img/icon1.png" alt="">
+          </div>
+        <h2 class="strong text-black text-medium">Saldo Anda</h2>
+        </a>
+
+        <a class="col-20" style="text-align: center;" onclick="openPage('riwayat_transaksi',riwatar_transaksi_beli)">
+        <div class="">
+            <img src="img/icon2.png" alt="">
+          </div>
+        <h2 class="strong text-black text-medium">Riwayat Transaksi</h2>
+        </a>
+
+      </div>
+       <div class="space"></div>
+      <div class="space"></div>
+      <div class="row-around">
+        <a class="col-20" style="text-align: center;" onclick="openPage('jual_transaksi',get_produk)">
+        <div class="">
+            <img src="img/icon3.png" alt="">
+          </div>
+        <h2 class="strong text-black text-medium">Jual</h2>
+        </a>
+
+        <a class="col-20" style="text-align: center;" onclick="openPage('beli_transaksi2')">
+        <div class="">
+            <img src="img/icon4.png" alt="">
+          </div>
+        <h2 class="strong text-black text-medium">Beli</h2>
+        </a>
+      </div>
+
+    </p>
+  </div>
+  </div>

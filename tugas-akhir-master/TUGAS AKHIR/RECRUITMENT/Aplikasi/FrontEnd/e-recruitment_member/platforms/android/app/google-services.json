@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "741250573289",
+    "firebase_url": "https://erec-member.firebaseio.com",
+    "project_id": "erec-member",
+    "storage_bucket": "erec-member.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741250573289:android:0461cdeb7a784d66",
+        "android_client_info": {
+          "package_name": "id.shakti.erecruitment_pelamar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARo6k4FETODC1p1uvyGWkIO-euUdu2wsI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "741250573289-trkl6dgmt4cuhehm467ef1b4ob57o8fp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,27 @@
+<div class="page">
+  <div class="content">
+  <!-- open header -->
+  <div class="header green-700">
+      <div class="left">
+        <button class="icon ion-ios-arrow-back" onclick="backPage()"></button>
+      </div>
+    <h1 class="title align-center text-white">E-Retribusi Agen</h1>
+  </div>
+  <!-- close header -->
+<h2 class="text-strong padding text-green-700" style="margin-top: 50px; font-size: 20px; text-align: center;">Cari Member</h2>
+  <p>
+    <div class="list">
+        <div class="item icon ion-search">
+          <input type="text" placeholder="Cari Nama Member" id="cari">
+          <div class="right" onclick="openPage('member',cari_member())">
+            <button class="blue large radius">Cari</button>
+          </div>
+        </div>
+      <div class="item text-black" data="list_member" onclick="openPage('detil_member',{id:'${id}',nama:'${nama}',nomor_va:'${nomor_va}',saldo:'${saldo}',tabungan:'${tabungan}'},load_data_list_transaksi)">
+        <h2 class="left strong" id="nama_member">${nama}</h2>
+        <label class="right text-green-700" id="nomor_va_member">${nomor_va}</label>
+      </div>
+    </div>
+  </p>
+</div>
+</div>

@@ -1,0 +1,38 @@
+<div class="page">
+  <div class="content white has-header">
+  <!-- open header -->
+  <div class="header amber-600">
+      <div class="left">
+        <button class="icon ion-ios-arrow-back" onclick="backPage()"></button>
+      </div>
+    <h1 class="title align-center text-white">Produksi</h1>
+  </div>
+  <!-- close header -->
+    <p>
+          <h2 class="text-strong padding text-amber-600">Daftar Produksi</h2>
+          <p>
+
+              <div class="list">
+                  <div class="item col ${produksi_status}" data="produksi" onclick="proses_beli_produksi('${produksi_status}','${id_produksi}')">
+                    <!-- <div class=${produksi_status}> -->
+                    <h3 class="text-strong text-white">${produk_nama}</h3>
+                    <h4 style="font-weight: 400;">Tanggal Produksi : ${tanggal}</h4>
+                    <!-- </div> -->
+                  </div>
+<!-- 
+                  <div class="item col green-200" onclick="">
+                    <h3 class="text-strong text-white">Bawang Merah</h3>
+                    <h4 style="font-weight: 400;">Tanggal Produksi : 03/01/2001</h4>
+                  </div> -->
+              </div>  
+
+          </p>
+
+
+      <div class="space"></div>
+      <div class="space"></div>
+
+    </p>
+    
+  </div>
+  </div>

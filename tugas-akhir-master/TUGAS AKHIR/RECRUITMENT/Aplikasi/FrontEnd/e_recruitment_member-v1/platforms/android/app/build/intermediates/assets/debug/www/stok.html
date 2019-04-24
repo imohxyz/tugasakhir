@@ -1,0 +1,48 @@
+<div class="page">
+<div class="content white has-header has-sub-header">
+<!-- open header -->
+  <div class="header amber-600">
+    <div class="left">
+      <button class="icon ion-navicon-round" onclick="openMenu('stok_menu')"></button>
+    </div>
+    <h1 class="title align-center text-white">Bengkel Bumi App</h1>
+    <div class="right">
+      <button class="icon ion-android-more-vertical" onclick="openPopover('stok_pop')"></button>
+    </div>
+  </div>
+  <!-- close header -->
+
+<!-- open menu -->
+    <div class="menu amber-700 cover" id="stok_menu">
+      <div include="menu"></div>
+    </div>
+  <!-- close menu -->
+
+  <!-- open popover -->
+  <div class="popover" id="stok_pop">
+    <div include="popover"></div>
+  </div>
+  <!-- close popover -->
+    <p>
+        
+       <div class="header sub white align-center">
+            <button class="left icon ion-ios-arrow-left text-amber-600" id="before_stok" onclick="ubah_stok_before()"></button>
+            <h1 class="text-amber-600" id="stok_tanggal">Agustus 2018</h1>
+            <button class="right icon ion-ios-arrow-right text-amber-600" id="next_stok" onclick="ubah_stok_next()"></button>
+      </div>
+      <!-- Open Chart -->
+          <div class="tab-content padding active" id="tabJagung">
+            <!-- <div class="grey-100 chartist-green text-black" id="chartist-strauss"></div> -->
+            <canvas id="bar-chart" height="450" style="width: 100%"></canvas>
+            <div class="list">
+              <div class="item" data="list_chart">
+                <h2>${nama_produk}</h2>
+                <span class="right text-strong">Stock : ${stok_produk}</span>
+              </div>
+            </div>
+
+         </div>
+         <!-- Close Chart -->
+    </p>
+</div>
+</div>

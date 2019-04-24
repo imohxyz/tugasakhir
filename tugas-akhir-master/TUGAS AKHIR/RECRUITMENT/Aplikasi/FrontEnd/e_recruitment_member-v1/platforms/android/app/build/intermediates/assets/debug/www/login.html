@@ -1,0 +1,35 @@
+<div class="page">
+  <div class="content white has-header" style="height: 100%; width: 100%;">
+    <div class="header amber-600">
+      <div class="left">
+        <button class="icon ion-ios-arrow-back" onclick="backPage()"></button>
+      </div>
+    </div>
+    <div class="content amber-600">
+      <div style="text-align: center;margin-top: 5%;">
+        <img src="img/logo4.png"  width="135" height="120">
+        <p><img src="img/logo2.png" width="145" height="50"></p>
+        <p>
+          <div class="space"></div>
+          <div class="space"></div>
+          <div class="space"></div>
+          <div class="space"></div>
+          <div class="space"></div>
+              <div class="list no-border">
+                <div class="item icon ion-person">
+                  <input type="text" placeholder="Username atau Email" id="login_email">
+                </div>
+                <div class="item icon ion-key">
+                  <input type="password" placeholder="Password" id="login_pass">
+                </div>
+                <div class="space"></div>
+                 <button class="white text-amber-600 full" style="border-radius: 25px; width: 80%;" onclick="loadingElement('btn_menu','Tunggu Sebentar...');login();" id="btn_menu">MASUK</button>
+              </div>
+        </p>
+      </div>
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="mobileui/mobileui.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+  </div>
+</div>

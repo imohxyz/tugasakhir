@@ -1,0 +1,77 @@
+<div class="page">
+  <div class="content">
+  <!-- open header -->
+  <div class="content has-header">
+  <div class="header green-700">
+    <div class="left">
+      <button class="icon ion-ios-arrow-back" onclick="backPage()"></button>
+    </div>
+    <h1 class="title align-center text-white">E-Retribusi Agen</h1>
+  </div>
+  <!-- close header -->
+  <div class="menu green-700 cover" id="dashboard_menu">
+    <div include="menu"></div>
+  </div>
+  <!-- close menu -->
+  <!-- open popover -->
+<div class="popover text-black" id="dashboard_pop">
+    <div include="popover"></div>
+  </div>
+      <div class="list" id="list_transaksi">
+            <div class="item text-black" id="list_nama" style="text-align: center;" onclick="">
+              <span class="text-black text-strong"></span>
+            </div>
+            <div class="item text-black" id="list_nomor_va" style="text-align: center;" onclick="">
+              <span class="text-green text-strong"></span>
+            </div>
+        <!-- open item -->
+<!--         <div class="item">
+          <div onclick="openPage('history_topup', load_data_history_topup)">
+            <h2 class="text-green text-strong">Saldo Member</h2>
+            <h2 class="text-amber-800 text-strong" id="list_saldo"></h2>
+          </div>
+          <div class="right" onclick="openPage('topup')">
+            <button class="blue large radius">Top Up</button>
+          </div>
+        </div> -->
+        <!-- close item -->
+        <!-- open item -->
+        <div class="item">
+          <div onclick="openPage('history_tabungan',{id:'${kategori_tagihan_member_id}',nama:'${nama_tagihan}'},load_data_history_tabungan)">
+            <div class="left">
+              <div class="icon-circle text-green border-green">
+                <div class="icon">
+                  <i class="fa fa-book"></i>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-green text-strong">Tabungan</h2>
+            <h2 class="text-amber-800 text-strong" id="list_tabungan"></h2>
+          </div>
+          <div class="right" onclick="openPage('tabungan',{id:'${kategori_tagihan_member_id}',nama:'${nama_tagihan}'},load_data_history_tabungan)">
+            <button class="blue large radius">Setor</button>
+          </div>
+        </div>
+        <!-- close item -->
+        <!-- open item -->
+          <div class="item" data="list_transaksi">
+            <div onclick="openPage('history',{id:'${kategori_tagihan_member_id}',nama:'${nama_tagihan}'},load_data_history)">
+              <div class="left">
+                <div class="icon-circle text-green border-green">
+                  <div class="icon">
+                    <i class="${icon_tagihan}"></i>
+                  </div>
+                </div>
+              </div>
+              <h2 class="text-green text-strong">${nama_tagihan}</h2>
+              <h2 class="text-amber-800 text-strong">${jumlah_tagihan}</h2>
+            </div>
+            <div class="right" onclick="openPage('detail_tagihan',{id:'${kategori_tagihan_member_id}',nama:'${nama_tagihan}'},load_data_detil_tagihan)">
+              <button class="blue large radius">Detail</button>
+            </div>
+          </div>
+        <!-- close item -->
+      </div>
+    </div>
+  </div>
+</div>

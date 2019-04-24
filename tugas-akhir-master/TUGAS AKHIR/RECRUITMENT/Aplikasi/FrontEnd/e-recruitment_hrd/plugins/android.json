@@ -1,0 +1,25 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-clipboard2": {
+      "PACKAGE_NAME": "id.shakti.eretribusi_agen"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "id.shakti.eretribusi_agen"
+    },
+    "skwas-cordova-plugin-datetimepicker": {
+      "PACKAGE_NAME": "id.shakti.eretribusi_agen"
+    },
+    "phonegap-plugin-barcodescanner": {
+      "ANDROID_SUPPORT_V4_VERSION": "27.+",
+      "PACKAGE_NAME": "id.shakti.eretribusi_agen"
+    }
+  },
+  "dependent_plugins": {}
+}

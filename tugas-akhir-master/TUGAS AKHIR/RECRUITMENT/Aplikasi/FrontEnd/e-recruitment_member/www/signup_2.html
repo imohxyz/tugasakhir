@@ -1,0 +1,100 @@
+<div class="page">
+    <div class="content white" style="min-height: 100%; min-width: 100%;">
+    <div class="header green-700">
+      <h1 class="align-center text-white">Input Data Pelamar</h1>
+    </div>
+      <div class="space"></div>
+      <div class="space"></div>
+      <div class="space"></div>
+         <div class="list">
+
+		  <div class="item label-float" data="data_register">
+		    <label>Nama Lengkap *</label>
+		    <input type="text" value="${nama}" disabled>
+		  </div>
+
+		  <div class="item label-float">
+		    <label>No. KTP *</label>
+		    <input type="number" id="daftar2_ktp">
+		  </div>
+
+		  <div class="item label-float" data="data_register">
+		  	<label>Email *</label>
+		      <input type="text" value="${email}" disabled>
+		  </div>
+
+		  <div class="item label-float">
+		    <label>No. Handphone *</label>
+		    <input type="number" id="daftar2_hp">
+		  </div>
+
+		  <div class="item label-float">
+		    <label>Alamat *</label>
+		    <input type="text" id="daftar2_alamat">
+		  </div>
+
+		  <div class="item label-float">
+		  	<label>Tempat Lahir *</label>
+		    <input type="text" id="daftar2_tempat">
+		  </div>
+
+		  <div class="item label-float">
+		  	<label>Tanggal Lahir *</label>
+		    <input type="date" id="daftar2_tanggal">
+		  </div>
+
+		  <div class="item label-fixed">
+			<label>Pendidikan Terakhir *</label>
+			<select id="daftar2_pendakhir">
+			  <option value="">----- Pilih Jenjang -----</option>
+			  <option data="datapendakhir" value="${id}">${pend_akhir}</option>
+			</select>
+		  </div>
+
+		  <div class="item label-float">
+		  	<label>Pekerjaan Terakhir (Jika Ada)</label>
+		    <input type="text" id="daftar2_kerjaakhir">
+		  </div>
+
+		  <div class="item label-float">
+		  	<label>Jabatan Terakhir (Jika Ada)</label>
+		    <input type="text" id="daftar2_jabatanakhir">
+		  </div>
+
+		  <div class="item label-float">
+		  	<label>Lama Kerja Terakhir (Jika Ada)</label>
+		    <input type="text" id="daftar2_lamakerjaakhir">
+		  </div>
+
+		  <div class="item label-float">
+		  	<label>Kompetensi *</label>
+		    <input type="text" id="daftar2_kompetensi">
+		  </div>
+
+		  <div class="item label-fixed">
+			<label>Jenis Kelamin *</label>
+			   <select id="daftar2_jenkel">
+			    <option value="">----- Pilih Jenis Kelamin -----</option>
+			      <option value="L">Laki-Laki</option>
+			      <option value="P">Perempuan</option>
+			   </select>
+		  </div>
+
+		  <div class="item label-float">
+		  	<label>Foto *</label>
+		    <input type="file" id="daftar2_poto">
+		  </div>
+
+		  <div class="item">
+		    <button class="teal amber-600 text-white full" style="border-radius: 25px;" onclick="loadingElement('btn_lanjut','Tunggu Sebentar...');register_2();" id="btn_lanjut">LANJUT</button>
+		  </div>
+		</div>
+
+    </p>
+  </div>
+      
+      <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="mobileui/mobileui.js"></script>
+      <script type="text/javascript" src="js/index.js"></script>
+    </div>
+</div>

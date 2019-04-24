@@ -1,0 +1,45 @@
+<div class="page">
+  <div class="content white has-header has-sub-header">
+  <!-- open header -->
+  <div class="header amber-600">
+      <div class="left">
+        <button class="icon ion-ios-arrow-back" onclick="backPage()"></button>
+      </div>
+    <h1 class="title align-center text-white">Riwayat Transaksi</h1>
+  </div>
+  <!-- close header -->
+      <div class="header amber-600 sub shadow tab">
+          <button class="icon ion-android-cart active" onclick="openTab('tabBeli')">Beli</button>
+          <button class="icon ion-android-list" onclick="openTab('tabJual')">Jual</button>
+      </div>
+        <div class="tab-content active" id="tabBeli">
+          <h2 class="text-strong padding text-amber-600">Beli</h2>
+          <p>
+
+              <div class="list">
+                  <div class="item" data="riwayat_beli">
+                    <p>${tanggal}</p>
+                    <h3 class="text-strong">Total Rp ${total}</h3>
+                  </div>
+              </div>  
+
+          </p>
+        </div>
+
+        <div class="tab-content" id="tabJual">
+          <h2 class="text-strong padding text-amber-600">Jual</h2>
+          <p>
+              <div class="list">
+                  <div class="item" data="riwayat_jual">
+                    <p>${tanggal}</p>
+                    <h3 class="text-strong">Total Rp ${total}</h3>
+                  </div>
+              </div>
+          </p>
+        </div>
+
+      <div class="space"></div>
+      <div class="space"></div>
+
+  </div>
+  </div>

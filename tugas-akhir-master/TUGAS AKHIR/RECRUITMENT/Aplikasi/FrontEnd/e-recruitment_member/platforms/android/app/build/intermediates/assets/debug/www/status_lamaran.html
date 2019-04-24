@@ -1,0 +1,76 @@
+<div class="page">
+  <!-- open header -->
+  <div class="content">
+  <div class="header green-700">
+      <div class="left">
+        <button class="icon ion-ios-arrow-back" onclick="backPage()"></button>
+      </div>
+    <h1 class="title align-center text-white">E-Recruitment Pelamar</h1>
+  </div>
+  <!-- close header -->
+  <!-- open header -->
+  <div class="header green-700 sub shadow tab">
+    <button class="text-white active" onclick="openTab('tabProses')">Proses</button>
+    <button class="text-white" onclick="openTab('tabDiterima')">Diterima</button>
+    <button class="text-white" onclick="openTab('tabDitolak')">Ditolak</button>
+  </div>
+  <!-- close header -->
+  <!-- open tab proses -->
+  <div class="tab-content active" id="tabProses">
+    <p>
+      <div class="list">
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="item">
+          <h2 class="text-strong padding text-green-700" style="margin-top: 50px;font-size: 20px;">Lamaran Diproses</h2>
+        </div>
+        <div class="item text-black" data="history_lamaran_proses">
+          <h4>${tanggal}</h4>
+          <h2 class="text-amber-800 text-strong">${judul}</h2>
+        </div>
+      </div>
+      <div class="space"></div>
+      <div class="space"></div>
+    </p>
+  </div>
+  <!-- close tab proses -->
+  <!-- open tab terima -->
+  <div class="tab-content" id="tabDiterima">
+    <p>
+      <div class="list">
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="item">
+          <h2 class="text-strong padding text-green-700" style="margin-top: 50px;font-size: 20px;">Lamaran Diterima</h2>
+        </div>
+        <div class="item text-black" data="history_lamaran_diterima">
+          <h4>${tanggal}</h4>
+          <h2 class="text-amber-800 text-strong">${judul}</h2>
+        </div>
+      </div>
+      <div class="space"></div>
+      <div class="space"></div>
+    </p>
+  </div>
+  <!-- close tab terima -->
+  <!-- open tab tolak -->
+  <div class="tab-content" id="tabDitolak">
+    <p>
+      <div class="list">
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="item">
+          <h2 class="text-strong padding text-green-700" style="margin-top: 50px;font-size: 20px;">Lamaran Ditolak</h2>
+        </div>
+        <div class="item text-black" data="history_lamaran_ditolak">
+          <h4>${tanggal}</h4>
+          <h2 class="text-amber-800 text-strong">${judul}</h2>
+        </div>
+      </div>
+      <div class="space"></div>
+      <div class="space"></div>
+    </p>
+  </div>
+  <!-- close tab tolak -->
+  </div>
+</div>

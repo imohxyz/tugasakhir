@@ -1,0 +1,41 @@
+C:\Users\IMOH\AppData\Local\Temporary Projects\AppPenggajian2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\IMOH\AppData\Local\Temporary Projects\AppPenggajian2\obj\Debug\AppPenggajian2.cetak.resources
+C:\Users\IMOH\AppData\Local\Temporary Projects\AppPenggajian2\obj\Debug\AppPenggajian2.gaji.resources
+C:\Users\IMOH\AppData\Local\Temporary Projects\AppPenggajian2\obj\Debug\AppPenggajian2.ganti_password.resources
+C:\Users\IMOH\AppData\Local\Temporary Projects\AppPenggajian2\obj\Debug\AppPenggajian2.golongan.resources
+C:\Users\IMOH\AppData\Local\Temporary Projects\AppPenggajian2\obj\Debug\AppPenggajian2.jabatan.resources
+C:\Users\IMOH\AppData\Local\Temporary Projects\AppPenggajian2\obj\Debug\AppPenggajian2.karyawan.resources
+C:\Users\IMOH\AppData\Local\Temporary Projects\AppPenggajian2\obj\Debug\AppPenggajian2.laporan_master.resources
+C:\Users\IMOH\AppData\Local\Temporary Projects\AppPenggajian2\obj\Debug\AppPenggajian2.lap_gaji.resources
+C:\Users\IMOH\AppData\Local\Temporary Projects\AppPenggajian2\obj\Debug\AppPenggajian2.login.resources
+C:\Users\IMOH\AppData\Local\Temporary Projects\AppPenggajian2\obj\Debug\AppPenggajian2.menuutama.resources
+C:\Users\IMOH\AppData\Local\Temporary Projects\AppPenggajian2\obj\Debug\AppPenggajian2.Resources.resources
+C:\Users\IMOH\AppData\Local\Temporary Projects\AppPenggajian2\obj\Debug\AppPenggajian2.pendapatan.resources
+C:\Users\IMOH\AppData\Local\Temporary Projects\AppPenggajian2\obj\Debug\AppPenggajian2.potongan.resources
+C:\Users\IMOH\AppData\Local\Temporary Projects\AppPenggajian2\obj\Debug\AppPenggajian2.profil.resources
+C:\Users\IMOH\AppData\Local\Temporary Projects\AppPenggajian2\obj\Debug\AppPenggajian2.user.resources
+C:\Users\IMOH\AppData\Local\Temporary Projects\AppPenggajian2\obj\Debug\AppPenggajian2.vbproj.GenerateResource.Cache
+D:\IMOH\AppPenggajian2\AppPenggajian2\bin\Debug\AppPenggajian2.exe
+D:\IMOH\AppPenggajian2\AppPenggajian2\bin\Debug\AppPenggajian2.pdb
+D:\IMOH\AppPenggajian2\AppPenggajian2\bin\Debug\AppPenggajian2.xml
+D:\IMOH\AppPenggajian2\AppPenggajian2\obj\Debug\ResolveAssemblyReference.cache
+D:\IMOH\AppPenggajian2\AppPenggajian2\obj\Debug\AppPenggajian2.cetak.resources
+D:\IMOH\AppPenggajian2\AppPenggajian2\obj\Debug\AppPenggajian2.gaji.resources
+D:\IMOH\AppPenggajian2\AppPenggajian2\obj\Debug\AppPenggajian2.ganti_password.resources
+D:\IMOH\AppPenggajian2\AppPenggajian2\obj\Debug\AppPenggajian2.golongan.resources
+D:\IMOH\AppPenggajian2\AppPenggajian2\obj\Debug\AppPenggajian2.jabatan.resources
+D:\IMOH\AppPenggajian2\AppPenggajian2\obj\Debug\AppPenggajian2.karyawan.resources
+D:\IMOH\AppPenggajian2\AppPenggajian2\obj\Debug\AppPenggajian2.laporan_master.resources
+D:\IMOH\AppPenggajian2\AppPenggajian2\obj\Debug\AppPenggajian2.lap_gaji.resources
+D:\IMOH\AppPenggajian2\AppPenggajian2\obj\Debug\AppPenggajian2.login.resources
+D:\IMOH\AppPenggajian2\AppPenggajian2\obj\Debug\AppPenggajian2.menuutama.resources
+D:\IMOH\AppPenggajian2\AppPenggajian2\obj\Debug\AppPenggajian2.Resources.resources
+D:\IMOH\AppPenggajian2\AppPenggajian2\obj\Debug\AppPenggajian2.pendapatan.resources
+D:\IMOH\AppPenggajian2\AppPenggajian2\obj\Debug\AppPenggajian2.potongan.resources
+D:\IMOH\AppPenggajian2\AppPenggajian2\obj\Debug\AppPenggajian2.profil.resources
+D:\IMOH\AppPenggajian2\AppPenggajian2\obj\Debug\AppPenggajian2.user.resources
+D:\IMOH\AppPenggajian2\AppPenggajian2\obj\Debug\AppPenggajian2.vbproj.GenerateResource.Cache
+D:\IMOH\AppPenggajian2\AppPenggajian2\obj\Debug\AppPenggajian2.exe
+D:\IMOH\AppPenggajian2\AppPenggajian2\obj\Debug\AppPenggajian2.xml
+D:\IMOH\AppPenggajian2\AppPenggajian2\obj\Debug\AppPenggajian2.pdb
+D:\IMOH\AppPenggajian2\AppPenggajian2\obj\Debug\AppPenggajian2.hisjabatan.resources

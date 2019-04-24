@@ -1,0 +1,39 @@
+<div class="page">
+    <div class="content has-header">
+  <!-- open header -->
+  <div class="header amber-600">
+      <div class="left">
+        <button class="icon ion-ios-arrow-back" onclick="backPage();reset_list_produk();"></button>
+      </div>
+    <h1 class="title align-center text-white">Bengkel Bumi App</h1>
+  </div>
+  <!-- close header -->
+<h2 class="text-strong padding text-amber-600">Beli Eceran</h2>
+<p>
+    <div class="label-fixed" style="margin-top: 10px;margin-bottom: 10px">
+      <label style="margin-left: 5px;">Tipe Bayar</label>
+      <select name="bayar_id" id="bayar_id">
+        <option value="2">Cash</option>
+        <option value="1">Credit</option>
+      </select>
+    </div>
+    
+    
+          <button class="amber-600 text-white ion-plus-round full" style="border-radius: 25px;margin-bottom: 10px;" onclick="tambah_list_beli()">Tambah Produk</button>
+
+      <div class="list grey-200" data="list_produk">
+        <div class="item">
+          <h2>Produk    : ${produk} x ${jumlah}</h2>
+          <h2>Sub Total : ${subtotal}</h2>
+          <div class="right">
+            <button class="icon ion-trash-b red circle" onclick="hapus_list($$index,${subtotal})"></button>
+          </div>
+        </div>
+      </div>
+            <h2 style="margin-top: 10px;margin-left: 5px;margin-bottom: 10px;" id="total_bayar">Total Bayar : Rp 0,-</h2>
+            <div style="text-align: center;">
+          <button class="amber-600 text-white" style="border-radius: 25px; width: 100%" onclick="proses_beli();" id="btn_beli_eceran">Proses</button>
+            </div>
+    </p>
+  </div>
+  </div>

@@ -1,0 +1,21 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-globalization": {
+      "PACKAGE_NAME": "id.shakti.bbm"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "id.shakti.bbm"
+    },
+    "skwas-cordova-plugin-datetimepicker": {
+      "PACKAGE_NAME": "id.shakti.bbm"
+    }
+  },
+  "dependent_plugins": {}
+}

@@ -1,0 +1,71 @@
+      <div class="cover align-center" data="data_anggota">
+        <img class="avatar circle" src="img/logo1.png">
+        <h1 class="text-black text-strong">${nama_anggota}</h1>
+        <p class="text-black">${email_anggota}</p>
+      </div>
+ <hr style="border: 0.5px;border-style: solid;">
+    <div class="list no-border">
+
+      <a class="item space-small" onclick="Buka();openPage('dashboard');get_detail_anggota(data_anggota['id_user']);">
+        <div class="left">
+          <i class="icon ion-home grey-900"></i>
+        </div>
+        <h1 class="text-grey-900">Dashboard</h1>
+      </a>
+
+      <a class="item space-small" onclick="Buka();openPage('berita')">
+        <div class="left">
+          <i class="icon ion-earth grey-900"></i>
+        </div>
+        <h1 class="text-grey-900">Berita</h1>
+      </a>
+
+      <a class="item space-small" onclick="Buka();openPage('produk')">
+        <div class="left">
+          <i class="icon ion-cube grey-900"></i>
+        </div>
+        <h1 class="text-grey-900">Produk</h1>
+      </a>
+
+      <a class="item space-small" onclick="Buka();anggota_has_produk();">
+        <div class="left">
+          <i class="icon ion-edit grey-900"></i>
+        </div>
+        <h1 class="text-grey-900">Produk yang Dimiliki</h1>
+      </a>
+
+      <a class="item space-small" onclick="Buka();openPage('transaksi');">
+        <div class="left">
+          <i class="icon ion-cash grey-900"></i>
+        </div>
+        <h1 class="text-grey-900">Transaksi</h1>
+      </a>
+
+      <a class="item space-small" onclick="Buka();openPage('masa_tanam',get_has_produk);">
+        <div class="left">
+          <i class="icon ion-leaf grey-900"></i>
+        </div>
+        <h1 class="text-grey-900">Masa Tanam</h1>
+      </a>
+
+      <a class="item space-small" onclick="Buka();openPage('stok', tampil_chart);">
+        <div class="left">
+          <i class="icon ion-clipboard grey-900"></i>
+        </div>
+        <h1 class="text-grey-900">Stok</h1>
+      </a>
+
+      <a class="item space-small" onclick="Buka();openPage('q_and_a');">
+        <div class="left">
+          <i class="icon ion-chatbox-working grey-900"></i>
+        </div>
+        <h1 class="text-grey-900">Q & A</h1>
+      </a>
+
+      <a class="item space-small" onclick="Buka();openPage('info');">
+        <div class="left">
+          <i class="icon ion-information grey-900"></i>
+        </div>
+        <h1 class="text-grey-900">Info</h1>
+      </a>
+    </div>

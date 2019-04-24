@@ -1,0 +1,468 @@
+-- Merging decision tree log ---
+provider#org.apache.cordova.camera.FileProvider
+INJECTED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:12:9-14:20
+	android:grantUriPermissions
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:12:92-126
+	android:authorities
+		INJECTED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:12:19-66
+	android:exported
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:12:67-91
+	android:name
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:12:127-180
+manifest
+ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:2:1-39:12
+MERGED from [com.google.firebase:firebase-core:16.0.8] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.8.aar\1a18d66021936eb64e9ba2e639b1b4e8\AndroidManifest.xml:2:1-9:12
+MERGED from [:barcodescanner-release-2.1.5:] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\barcodescanner-release-2.1.5.aar\3954c49b230e12f6196cfca68d4ab181\AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.6.0.aar\0078eb2e871ff96aa81dfa9abff3704c\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-analytics:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.4.0.aar\e1d1b0bb5c130738bc2bcbcb71583cd3\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\8eb642406fb412417e06cfad2ac3505c\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4aff6a29a0e042ff5b051fc13ce951cd\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-common:16.1.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-common-16.1.0.aar\06817d2da19ddf585945ac305dfd15c6\AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\8e1063294c88260e32cea9f1836d288a\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\68cda206a2a4af4ffc97ec3aad9ab176\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\0014f91807fb73fd214d9c772a076346\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\76a8a9338339695f8fab2c9a8d4b1c3b\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-16.4.0.aar\89f3349704c6edfb245a54ecce6ae486\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\5d494ec324e2d67b63f95d2e5553a95b\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\61cb78336e58e97d9e4c587645eb244e\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\e67e5b108cacbe79b5f67858cb536f9c\AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.4.0.aar\52ac93c274ab72930f73c1bc99e86ad6\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\88405ea18db6fd3b130c2b51ee4f1d1b\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.2.0.aar\5e75fc4f174cd9106b7297fd969eec7e\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\8916003efa03b33f13d5ba5712287cc4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\14f10e472225ec6c9428a9264401abbb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\e1a62dc1f53878feddc1fd12dedf56c5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\47367222702cc21a42da1e5cc5ca42ac\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\93235f076b9d160699e22707b8e5ff2b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\ae6885b9be11cff26aa71a6fb9ac9854\AndroidManifest.xml:17:1-22:12
+MERGED from [:CordovaLib] D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:1-27:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\644a9761a5b146fde2d6b8df8359f342\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\147784c0a7bbbb8f40dc4c1858ab79e7\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\986ca9fcfe5073c4244456c9f9302901\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\1184da339c4a0284e23a209fc6d2bef2\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:2:102-142
+		INJECTED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:2:74-101
+		INJECTED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml
+	android:hardwareAccelerated
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:2:11-45
+	xmlns:android
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:2:143-201
+	android:versionCode
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:2:46-73
+		INJECTED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml
+supports-screens
+ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:3:5-191
+	android:largeScreens
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:3:49-76
+	android:smallScreens
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:3:132-159
+	android:normalScreens
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:3:77-105
+	android:xlargeScreens
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:3:160-188
+	android:resizeable
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:3:106-131
+	android:anyDensity
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:3:23-48
+uses-permission#android.permission.INTERNET
+ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:4:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\8eb642406fb412417e06cfad2ac3505c\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\8eb642406fb412417e06cfad2ac3505c\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4aff6a29a0e042ff5b051fc13ce951cd\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4aff6a29a0e042ff5b051fc13ce951cd\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\5d494ec324e2d67b63f95d2e5553a95b\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\5d494ec324e2d67b63f95d2e5553a95b\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\e67e5b108cacbe79b5f67858cb536f9c\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\e67e5b108cacbe79b5f67858cb536f9c\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:4:22-64
+application
+ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:5:5-33:19
+MERGED from [com.google.firebase:firebase-core:16.0.8] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.8.aar\1a18d66021936eb64e9ba2e639b1b4e8\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.8] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.8.aar\1a18d66021936eb64e9ba2e639b1b4e8\AndroidManifest.xml:7:5-20
+MERGED from [:barcodescanner-release-2.1.5:] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\barcodescanner-release-2.1.5.aar\3954c49b230e12f6196cfca68d4ab181\AndroidManifest.xml:11:5-12:19
+MERGED from [:barcodescanner-release-2.1.5:] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\barcodescanner-release-2.1.5.aar\3954c49b230e12f6196cfca68d4ab181\AndroidManifest.xml:11:5-12:19
+MERGED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.6.0.aar\0078eb2e871ff96aa81dfa9abff3704c\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.6.0.aar\0078eb2e871ff96aa81dfa9abff3704c\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-analytics:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.4.0.aar\e1d1b0bb5c130738bc2bcbcb71583cd3\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.4.0.aar\e1d1b0bb5c130738bc2bcbcb71583cd3\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\8eb642406fb412417e06cfad2ac3505c\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\8eb642406fb412417e06cfad2ac3505c\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4aff6a29a0e042ff5b051fc13ce951cd\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4aff6a29a0e042ff5b051fc13ce951cd\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-common:16.1.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-common-16.1.0.aar\06817d2da19ddf585945ac305dfd15c6\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:16.1.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-common-16.1.0.aar\06817d2da19ddf585945ac305dfd15c6\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\8e1063294c88260e32cea9f1836d288a\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\8e1063294c88260e32cea9f1836d288a\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\68cda206a2a4af4ffc97ec3aad9ab176\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\68cda206a2a4af4ffc97ec3aad9ab176\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\0014f91807fb73fd214d9c772a076346\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\0014f91807fb73fd214d9c772a076346\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\76a8a9338339695f8fab2c9a8d4b1c3b\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\76a8a9338339695f8fab2c9a8d4b1c3b\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-16.4.0.aar\89f3349704c6edfb245a54ecce6ae486\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-16.4.0.aar\89f3349704c6edfb245a54ecce6ae486\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\5d494ec324e2d67b63f95d2e5553a95b\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\5d494ec324e2d67b63f95d2e5553a95b\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\61cb78336e58e97d9e4c587645eb244e\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\61cb78336e58e97d9e4c587645eb244e\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\e67e5b108cacbe79b5f67858cb536f9c\AndroidManifest.xml:27:5-28:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\e67e5b108cacbe79b5f67858cb536f9c\AndroidManifest.xml:27:5-28:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.4.0.aar\52ac93c274ab72930f73c1bc99e86ad6\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.4.0.aar\52ac93c274ab72930f73c1bc99e86ad6\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\88405ea18db6fd3b130c2b51ee4f1d1b\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\88405ea18db6fd3b130c2b51ee4f1d1b\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.2.0.aar\5e75fc4f174cd9106b7297fd969eec7e\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.2.0.aar\5e75fc4f174cd9106b7297fd969eec7e\AndroidManifest.xml:22:5-26:19
+	android:supportsRtl
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:5:114-140
+	android:label
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:5:81-113
+	android:hardwareAccelerated
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:5:18-52
+	android:icon
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:5:53-80
+activity#id.shakti.erecruitment_pelamar.MainActivity
+ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:6:9-11:20
+	android:label
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:6:97-134
+	android:launchMode
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:6:135-165
+	android:windowSoftInputMode
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:6:257-299
+	android:configChanges
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:6:19-96
+	android:theme
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:6:194-256
+	android:name
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:6:166-193
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:7:13-10:29
+	android:label
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:7:28-65
+action#android.intent.action.MAIN
+ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:8:17-69
+	android:name
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:8:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:9:17-77
+	android:name
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:9:27-74
+activity#com.gae.scaffolder.plugin.FCMPluginActivity
+ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:15:9-20:20
+	android:launchMode
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:15:43-73
+	android:exported
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:15:19-42
+	android:name
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:15:74-132
+intent-filter#FCM_PLUGIN_ACTIVITY+android.intent.category.DEFAULT
+ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:16:13-19:29
+action#FCM_PLUGIN_ACTIVITY
+ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:17:17-62
+	android:name
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:17:25-59
+category#android.intent.category.DEFAULT
+ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:18:17-76
+	android:name
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:18:27-73
+service#com.gae.scaffolder.plugin.MyFirebaseMessagingService
+ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:21:9-25:19
+	android:name
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:21:18-85
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:22:13-24:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:23:17-78
+	android:name
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:23:25-75
+service#com.gae.scaffolder.plugin.MyFirebaseInstanceIDService
+ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:26:9-30:19
+	android:name
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:26:18-86
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:27:13-29:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:28:17-80
+	android:name
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:28:25-77
+activity#com.google.zxing.client.android.CaptureActivity
+ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:31:9-311
+	android:clearTaskOnLaunch
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:31:19-51
+	android:windowSoftInputMode
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:31:261-308
+	android:exported
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:31:114-138
+	android:configChanges
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:31:52-113
+	android:theme
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:31:202-260
+	android:name
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:31:139-201
+activity#com.google.zxing.client.android.encode.EncodeActivity
+ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:32:9-112
+	android:label
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:32:19-40
+	android:name
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:32:41-109
+uses-sdk
+ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:34:5-74
+INJECTED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:34:5-74
+MERGED from [com.google.firebase:firebase-core:16.0.8] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.8.aar\1a18d66021936eb64e9ba2e639b1b4e8\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.8] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.8.aar\1a18d66021936eb64e9ba2e639b1b4e8\AndroidManifest.xml:5:5-44
+MERGED from [:barcodescanner-release-2.1.5:] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\barcodescanner-release-2.1.5.aar\3954c49b230e12f6196cfca68d4ab181\AndroidManifest.xml:7:5-9:41
+MERGED from [:barcodescanner-release-2.1.5:] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\barcodescanner-release-2.1.5.aar\3954c49b230e12f6196cfca68d4ab181\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.6.0.aar\0078eb2e871ff96aa81dfa9abff3704c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.6.0.aar\0078eb2e871ff96aa81dfa9abff3704c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.4.0.aar\e1d1b0bb5c130738bc2bcbcb71583cd3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.4.0.aar\e1d1b0bb5c130738bc2bcbcb71583cd3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\8eb642406fb412417e06cfad2ac3505c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\8eb642406fb412417e06cfad2ac3505c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4aff6a29a0e042ff5b051fc13ce951cd\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4aff6a29a0e042ff5b051fc13ce951cd\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.1.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-common-16.1.0.aar\06817d2da19ddf585945ac305dfd15c6\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:16.1.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-common-16.1.0.aar\06817d2da19ddf585945ac305dfd15c6\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\8e1063294c88260e32cea9f1836d288a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\8e1063294c88260e32cea9f1836d288a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\68cda206a2a4af4ffc97ec3aad9ab176\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\68cda206a2a4af4ffc97ec3aad9ab176\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\0014f91807fb73fd214d9c772a076346\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\0014f91807fb73fd214d9c772a076346\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\76a8a9338339695f8fab2c9a8d4b1c3b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\76a8a9338339695f8fab2c9a8d4b1c3b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-16.4.0.aar\89f3349704c6edfb245a54ecce6ae486\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-16.4.0.aar\89f3349704c6edfb245a54ecce6ae486\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\5d494ec324e2d67b63f95d2e5553a95b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\5d494ec324e2d67b63f95d2e5553a95b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\61cb78336e58e97d9e4c587645eb244e\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\61cb78336e58e97d9e4c587645eb244e\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\e67e5b108cacbe79b5f67858cb536f9c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\e67e5b108cacbe79b5f67858cb536f9c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.4.0.aar\52ac93c274ab72930f73c1bc99e86ad6\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.4.0.aar\52ac93c274ab72930f73c1bc99e86ad6\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\88405ea18db6fd3b130c2b51ee4f1d1b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\88405ea18db6fd3b130c2b51ee4f1d1b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.2.0.aar\5e75fc4f174cd9106b7297fd969eec7e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.2.0.aar\5e75fc4f174cd9106b7297fd969eec7e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\8916003efa03b33f13d5ba5712287cc4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\8916003efa03b33f13d5ba5712287cc4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\14f10e472225ec6c9428a9264401abbb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\14f10e472225ec6c9428a9264401abbb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\e1a62dc1f53878feddc1fd12dedf56c5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\e1a62dc1f53878feddc1fd12dedf56c5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\47367222702cc21a42da1e5cc5ca42ac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\47367222702cc21a42da1e5cc5ca42ac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\93235f076b9d160699e22707b8e5ff2b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\93235f076b9d160699e22707b8e5ff2b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\ae6885b9be11cff26aa71a6fb9ac9854\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\ae6885b9be11cff26aa71a6fb9ac9854\AndroidManifest.xml:20:5-44
+MERGED from [:CordovaLib] D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\644a9761a5b146fde2d6b8df8359f342\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\644a9761a5b146fde2d6b8df8359f342\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\147784c0a7bbbb8f40dc4c1858ab79e7\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\147784c0a7bbbb8f40dc4c1858ab79e7\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\986ca9fcfe5073c4244456c9f9302901\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\986ca9fcfe5073c4244456c9f9302901\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\1184da339c4a0284e23a209fc6d2bef2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\1184da339c4a0284e23a209fc6d2bef2\AndroidManifest.xml:20:5-44
+INJECTED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:34:5-74
+	android:targetSdkVersion
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:34:42-71
+	android:minSdkVersion
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:34:15-41
+		INJECTED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:35:5-81
+	android:name
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:35:22-78
+uses-permission#android.permission.CAMERA
+ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:36:5-65
+	android:name
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:36:22-62
+uses-permission#android.permission.FLASHLIGHT
+ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:37:5-69
+	android:name
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:37:22-66
+uses-feature#android.hardware.camera
+ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:38:5-84
+	android:required
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:38:58-81
+	android:name
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:38:19-57
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:13:13-123
+	android:resource
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:13:75-120
+	android:name
+		ADDED from D:\Kampus\tugas-akhir-master\TUGAS AKHIR\RECRUITMENT\Aplikasi\FrontEnd\e-recruitment_member\platforms\android\app\src\main\AndroidManifest.xml:13:24-74
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.6.0.aar\0078eb2e871ff96aa81dfa9abff3704c\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.6.0.aar\0078eb2e871ff96aa81dfa9abff3704c\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.6.0.aar\0078eb2e871ff96aa81dfa9abff3704c\AndroidManifest.xml:29:13-82
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\8eb642406fb412417e06cfad2ac3505c\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4aff6a29a0e042ff5b051fc13ce951cd\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4aff6a29a0e042ff5b051fc13ce951cd\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\5d494ec324e2d67b63f95d2e5553a95b\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\5d494ec324e2d67b63f95d2e5553a95b\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\e67e5b108cacbe79b5f67858cb536f9c\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\e67e5b108cacbe79b5f67858cb536f9c\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\8eb642406fb412417e06cfad2ac3505c\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\8eb642406fb412417e06cfad2ac3505c\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4aff6a29a0e042ff5b051fc13ce951cd\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4aff6a29a0e042ff5b051fc13ce951cd\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\5d494ec324e2d67b63f95d2e5553a95b\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\5d494ec324e2d67b63f95d2e5553a95b\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\e67e5b108cacbe79b5f67858cb536f9c\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\e67e5b108cacbe79b5f67858cb536f9c\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\8eb642406fb412417e06cfad2ac3505c\AndroidManifest.xml:24:22-65
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\8eb642406fb412417e06cfad2ac3505c\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4aff6a29a0e042ff5b051fc13ce951cd\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4aff6a29a0e042ff5b051fc13ce951cd\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\8eb642406fb412417e06cfad2ac3505c\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\8eb642406fb412417e06cfad2ac3505c\AndroidManifest.xml:28:13-84
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\8eb642406fb412417e06cfad2ac3505c\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\8eb642406fb412417e06cfad2ac3505c\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\8eb642406fb412417e06cfad2ac3505c\AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4aff6a29a0e042ff5b051fc13ce951cd\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4aff6a29a0e042ff5b051fc13ce951cd\AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4aff6a29a0e042ff5b051fc13ce951cd\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4aff6a29a0e042ff5b051fc13ce951cd\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4aff6a29a0e042ff5b051fc13ce951cd\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4aff6a29a0e042ff5b051fc13ce951cd\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4aff6a29a0e042ff5b051fc13ce951cd\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4aff6a29a0e042ff5b051fc13ce951cd\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4aff6a29a0e042ff5b051fc13ce951cd\AndroidManifest.xml:38:13-78
+intent-filter#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4aff6a29a0e042ff5b051fc13ce951cd\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4aff6a29a0e042ff5b051fc13ce951cd\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4aff6a29a0e042ff5b051fc13ce951cd\AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4aff6a29a0e042ff5b051fc13ce951cd\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4aff6a29a0e042ff5b051fc13ce951cd\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4aff6a29a0e042ff5b051fc13ce951cd\AndroidManifest.xml:51:13-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.1.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-common-16.1.0.aar\06817d2da19ddf585945ac305dfd15c6\AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.1.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-common-16.1.0.aar\06817d2da19ddf585945ac305dfd15c6\AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.1.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-common-16.1.0.aar\06817d2da19ddf585945ac305dfd15c6\AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.1.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-common-16.1.0.aar\06817d2da19ddf585945ac305dfd15c6\AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.1.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\firebase-common-16.1.0.aar\06817d2da19ddf585945ac305dfd15c6\AndroidManifest.xml:13:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\68cda206a2a4af4ffc97ec3aad9ab176\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\68cda206a2a4af4ffc97ec3aad9ab176\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\68cda206a2a4af4ffc97ec3aad9ab176\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\68cda206a2a4af4ffc97ec3aad9ab176\AndroidManifest.xml:24:13-79
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\5d494ec324e2d67b63f95d2e5553a95b\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\5d494ec324e2d67b63f95d2e5553a95b\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\5d494ec324e2d67b63f95d2e5553a95b\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\5d494ec324e2d67b63f95d2e5553a95b\AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:35:13-100
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\f5fc89eb0d6b081c460b4d82f8f7a7a2\AndroidManifest.xml:49:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.2.0.aar\5e75fc4f174cd9106b7297fd969eec7e\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.2.0.aar\5e75fc4f174cd9106b7297fd969eec7e\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\IMOH\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.2.0.aar\5e75fc4f174cd9106b7297fd969eec7e\AndroidManifest.xml:24:13-58

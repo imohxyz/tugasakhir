@@ -1,0 +1,31 @@
+<div class="page">
+  <!-- open header -->
+  <div class="content has-header">
+  <div class="header green-700">
+      <div class="left">
+        <button class="icon ion-ios-arrow-back" onclick="backPage()"></button>
+      </div>
+    <h1 class="title align-center text-white">E-Recruitment Pelamar</h1>
+  </div>
+  <div class="list" id="list_lowongan">
+        <!-- open item -->
+          <div class="item" data="list_lowongan">
+            <div onclick="openPage('detail_lowongan',{id:'${lowongan_id}',load_data_detil_lowongan)">
+              <div class="left">
+                <div class="icon-circle text-green border-green">
+                  <div class="icon">
+                        <i class="fa fa-tags"></i>
+                  </div>
+                </div>
+              </div>
+              <h2 class="text-green text-strong">${judul}</h2>
+              <h2 class="text-amber-800 text-strong">Deadline : ${batas_waktu}</h2>
+            </div>
+            <div class="right" onclick="openPage('detail_lowongan',{id:'${lowongan_id}',load_data_detil_lowongan)">
+              <button class="blue large radius">Detail</button>
+            </div>
+          </div>
+        <!-- close item -->
+      </div>
+	</div>
+</div>

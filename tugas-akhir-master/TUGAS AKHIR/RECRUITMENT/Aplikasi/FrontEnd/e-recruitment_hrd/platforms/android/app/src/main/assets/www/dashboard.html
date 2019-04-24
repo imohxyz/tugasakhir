@@ -1,0 +1,63 @@
+<div class="page">
+    <div class="has-header content">
+<!-- open header -->
+  <div class="header green-700">
+    <h1 class="title align-center text-white">E-Retribusi Agen</h1>
+    <div class="right">
+      <button class="icon ion-android-more-vertical" onclick="openPopover('dashboard_pop')"></button>
+    </div>
+  </div>
+  <!-- close header -->
+  <!-- open popover -->
+  <div class="popover text-black" id="dashboard_pop">
+    <div include="popover"></div>
+  </div>
+
+  <div style="text-align: center;margin-top: 20px;margin-left: 15px;margin-right: 15px;">
+        <div style="width: 65%;height: 65%;margin: 0 auto;">
+          <div id="dashboard_qrcode"></div>
+        </div>
+        <div class="list radius" style="margin-top: 20px;">
+          <div class="item text-black">
+            <h2 class="left text-strong">Nama</h2>
+            <label class="right text-strong text-green-700" style="font-size: 20px;" id="dashboard_nama"></label>
+          </div>
+          <div class="item text-black" id="dashboard_clipboard" onclick="copy_va(data_user['nomor_va'])">
+            <h2 class="left text-strong">Nomor VA</h2>
+            <label class="right text-strong text-green-700" style="font-size: 20px;" id="dashboard_nomor_va"></label>
+          </div>
+      </div>
+      <div style="margin-top: 30px;">
+          <div style="text-align: center;">
+             <button class="green-700 text-white full" style="border-radius: 25px; width: 95%;" onclick="openPage('member',get_member)">
+            <i class="icon ion-person white" style="margin-left: 20px;"></i>CARI MEMBER</button>
+          </div>
+          <div class="space"></div>
+          <div style="text-align: center;">
+             <button class="green-700 text-white full" style="border-radius: 25px; width: 95%;" onclick="scan_member()">
+            <i class="icon ion-qr-scanner white" style="margin-left: 20px;"></i>SCAN MEMBER</button>
+          </div>
+          <div class="space"></div>
+          <div style="text-align: center;">
+             <button class="green-700 text-white full" style="border-radius: 25px; width: 95%;" onclick="openPage('list_pinjaman',load_data_list_transaksi_pinjaman)">
+            <i class="icon ion-clipboard white" style="margin-left: 20px;"></i>PINJAMAN MEMBER</button>
+          </div>
+          <div class="space"></div>
+          <div style="text-align: center;">
+             <button class="green-700 text-white full" style="border-radius: 25px; width: 95%;" onclick="openPage('topup_agen')">
+            <i class="icon ion-cash white" style="margin-left: 20px;"></i>TOPUP AGEN</button>
+          </div>
+          <div class="space"></div>
+          <div style="text-align: center;">
+             <button class="green-700 text-white full" style="border-radius: 25px; width: 95%;" onclick="openPage('tagihan_agen',load_data_detil_tagihan_agen)">
+            <i class="icon ion-card white" style="margin-left: 20px;"></i>TAGIHAN AGEN</button>
+          </div>
+          <div class="space"></div>
+      </div>
+      </div>
+  <!-- close popover -->
+        </div>
+    </p>
+  </div>
+    </div>
+</div>

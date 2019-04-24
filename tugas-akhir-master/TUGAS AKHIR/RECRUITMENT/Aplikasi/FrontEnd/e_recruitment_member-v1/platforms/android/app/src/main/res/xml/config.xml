@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="id.shakti.erecruitment_pelamar" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Globalization">
+        <param name="android-package" value="org.apache.cordova.globalization.Globalization" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="DateTimePicker">
+        <param name="android-package" value="com.skwas.cordova.datetimepicker.DateTimePicker" />
+    </feature>
+    <name>E-Recruitment Pelamar</name>
+    <description>
+        aplikasi e-recruitment untuk pelamar
+    </description>
+    <author email="masimoh98@gmail.com" href="http://imoh.xyz">
+        IMRON WIGNYOWIYOTO
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-navigation href="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="market:*" />
+    <icon density="mdpi" height="57" platform="android" src="res/icon/android/logo1.png" width="57" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="DisallowOverscroll" value="true" />
+</widget>

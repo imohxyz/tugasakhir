@@ -1,0 +1,134 @@
+<div class="page">
+    <div class="has-header content">
+<!-- open header -->
+  <div class="header green-700">
+    <!-- <div class="left">
+      <button class="icon ion-navicon-round" onclick="openMenu('dashboard_menu')"></button>
+    </div> -->
+    <h1 class="title align-center text-white">E-Recruitment Pelamar</h1>
+    <div class="right">
+      <button class="icon ion-android-more-vertical" onclick="openPopover('dashboard_pop')"></button>
+    </div>
+  </div>
+  <!-- close header -->
+
+<!-- open menu -->
+    <!-- <div class="menu green-700 cover" id="dashboard_menu">
+      <div include="menu"></div>
+    </div> -->
+  <!-- close menu -->
+
+  <!-- open popover -->
+<div class="popover text-black" id="dashboard_pop">
+    <div include="popover"></div>
+  </div>
+  <!-- close popover -->
+  <div class="footer green-700 shadow tab">
+    <button class="icon ion-android-list active" onclick="openTab('lowongan')">Lowongan</button>
+    <button class="icon ion-android-checkmark-circle" onclick="openTab('status')">Status</button>
+    <button class="icon ion-android-chat" onclick="openTab('faq')">FaQ</button>
+    <button class="icon ion-android-person" onclick="openTab('profil')">Profil</button>
+  </div>
+  <!-- menu lowongan -->
+  <div class="tab-content active" id="lowongan">
+    <h2 class="text-strong padding text-green">List Lowongan</h2>
+    <div class="padding border-grey-400 shadow radius white">
+      <button class="small white text-grey-400"></button>
+      <div class="right">
+        <button class="small icon ion-funnel white"></button>
+        <!-- <button class="small icon ion-location white"></button>
+        <button class="small icon ion-cash white"></button>
+        <button class="small icon ion-person white"></button> -->
+      </div>
+    </div>
+    <div class="space"></div>
+    <div class="list shadow radius white">
+      <div class="item">
+        <!-- <div class="left">
+          <img class="avatar circle" src="img/logo4.png">
+        </div> -->
+        <div class="left">
+          <h2>Nama Posisi/Bagian</h2>
+          <p>PT Mahatma Bramara Shakti</p>
+          <p class="text-grey-500 text-small">
+            <i class="icon ion-cash"></i> 6.000.000
+          </p>
+          <p class="text-grey-500 text-small">
+            <i class="icon ion-location"></i> Cilincing - Jakarta Utara
+          </p>
+        </div>
+        <div class="right">
+          <!-- <button class="icon ion-ios-arrow-right" onclick="openPage('detail_lowongan',{id:'${lowongan_id}',load_data_detil_lowongan)"></button> -->
+          <button class="icon ion-ios-arrow-right" onclick="openPage('info')"></button>
+        </div>
+      </div>
+      <!-- <div class="item full">
+        <img src="img/jamu.png">
+      </div> -->
+    </div>
+    <div class="space"></div>
+    <div class="space"></div>
+  </div>
+  <!-- tutup menu lowongan -->
+  <!-- menu status -->
+  <div class="tab-content" id="status">
+    <h2 class="text-strong padding text-green">Status Lamaran</h2>
+    <div class="list">
+      <div class="item text-black" data="history_data_topup">
+          <h2>${tanggal}</h2>
+          <h2 class="text-amber-800 text-strong">${nominal}</h2>
+          <div class="right">
+            <span class="text-small ${status} radius padding">${keterangan}</span>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="tab-content" id="faq">
+    <h1 class="text-strong padding text-green">Frequently Asked Questions</h1>
+      <!-- open item -->
+        <div class="item">
+          <div class="padding border-green shadow radius mark" style="margin-left: 20px; margin-right: 20px;" data="list_faq">
+            <p>${pertanyaan}</p>
+            <p class="text-red-400">${jawaban}</p>
+          </div>
+        </div>
+      <!-- close item -->
+  </div>
+  <!-- tutup menu status -->
+  <!-- menu profil -->
+  <div class="tab-content" id="profil">
+    <h1 class="text-strong padding text-green">Profil</h1>
+    <div style="text-align: center;margin-top: 20px;margin-left: 15px;margin-right: 15px;">
+        <!-- <img src="img/qrcode.png" width="200px" height="200px"> -->
+        <!-- <div style="width: 65%;height: 65%;margin: 0 auto;">
+          <div id="dashboard_qrcode"></div>
+        </div> -->
+        <div class="list radius" style="margin-top: 20px;">
+          <div class="item text-black">
+            <h2 class="left text-strong">Nama</h2>
+            <label class="right text-strong text-green-700" style="font-size: 20px;" id="dashboard_nama"></label>
+          </div>
+          <div class="item text-black" onclick="copy_va(data_user['ktp'])">
+            <h2 class="left text-strong">Nomor KTP</h2>
+            <label class="right text-strong text-green-700" style="font-size: 20px;" id="dashboard_ktp"></label>
+          </div>
+      </div>
+      </div>
+        <div style="margin-top: 20px;">
+          <div class="space"></div>
+          <div style="text-align: center;">
+             <button class="green-700 text-white full" style="border-radius: 25px; width: 95%;" onclick="openPage('list_lowongan',load_data_list_lowongan)">
+            <i class="icon ion-edit white" style="margin-left: 20px;"></i>EDIT PROFIL</button>
+          </div>
+          <div class="space"></div>
+          <div style="text-align: center;">
+             <button class="green-700 text-white full" style="border-radius: 25px; width: 95%;" onclick="openPage('info')">
+            <i class="icon ion-information white" style="margin-left: 20px;"></i>INFO APLIKASI</button>
+          </div>
+      </div>
+      <div class="space"></div>
+      <div class="space"></div>
+  </div>
+  <!-- tutup menu profil -->
+  </div>
+  </div>

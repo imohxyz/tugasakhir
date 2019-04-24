@@ -1,0 +1,27 @@
+DAFTAR PUSTAKA DARI LINK LINK
+
+1. ANDROID : https://repository.bsi.ac.id/index.php/unduh/item/314/File_10-BAB-II-Landasan-Teori.pdf
+2. HTML : https://widuri.raharja.info/index.php/TA1211374137
+3. CSS, JS, MySQL : https://repository.bsi.ac.id/index.php/unduh/item/1369/File_10-Bab-II-Landasan-Teori.pdf
+4. E-Recruitment : http://www.academia.edu/7429477/Rancang_Bangun_E-Recruitment_Karyawan_Studi_Kasus_CV._Barbeku_Yasmin_Sarana_Bahagia_
+5. API : https://www.researchgate.net/publication/323962535_Sistem_Informasi_Geografis_Berbasis_Web_Pemetaan_Lokasi_Toko_Oleh-Oleh_Khas_Samarinda
+6. JQuery Mobile : http://sir.stikom.edu/id/eprint/247/5/BAB%20II.pdf
+
+
+JURNAL TERKAIT
+
+2. https://www.researchgate.net/publication/323169938_RANCANG_BANGUN_SISTEM_E-RECRUITMENT_BERBASIS_ANDROID
+1. https://lp2m.asia.ac.id/wp-content/uploads/2013/08/Tommy-Septian-Purnomo_E-recruitment-suatu-inovasi-dalam-perekrutan.pdf
+3. http://e-jurnal.lppmunsera.org/index.php/PROSISKO/article/view/27
+4. http://repository.uinjkt.ac.id/dspace/handle/123456789/2724
+5. http://ejournal.raharja.ac.id/index.php/sensi/article/view/599
+
+LINK BEKAS HISTORY WEB : 
+http://www.academia.edu/7429477/Rancang_Bangun_E-Recruitment_Karyawan_Studi_Kasus_CV._Barbeku_Yasmin_Sarana_Bahagia_
+http://repository.unpas.ac.id/26672/7/BAB5_Kesimpulan_Saran_123040426.pdf
+http://repository.unpas.ac.id/26672/6/BAB3_123040426.pdf
+e-jurnal.lppmunsera.org/index.php/PROSISKO/article/view/27/133
+https://www.researchgate.net/publication/323169938_RANCANG_BANGUN_SISTEM_E-RECRUITMENT_BERBASIS_ANDROID
+http://repository.unpas.ac.id/26672/
+http://repository.unpas.ac.id/26672/1/Abstrak_123040426.pdf
+http://repository.unpas.ac.id/26672/4/BAB1_123040426.pdf

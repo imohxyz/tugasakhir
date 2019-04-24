@@ -1,0 +1,35 @@
+<div class="page">
+  <!-- open header -->
+  <div class="content has-header">
+  <div class="header green-700">
+    <div class="left">
+      <button class="icon ion-ios-arrow-back" onclick="backPage()"></button>
+    </div>
+    <h1 class="title align-center text-white">E-Retribusi Agen</h1>
+    <!-- <div class="right">
+      <button class="icon ion-android-more-vertical" onclick="openPopover('dashboard_pop')"></button>
+    </div> -->
+  </div>
+  <!-- close header -->
+
+  <!-- open popover -->
+<div class="popover text-black" id="dashboard_pop">
+    <div include="popover"></div>
+  </div>
+      <div class="list" id="list_transaksi_pinjaman">
+        <!-- open item -->
+          <div class="item" data="list_transaksi_pinjaman">
+              <h2>${tanggal_pinjam}</h2>
+              <h2 class="text-blue text-strong">${nomor}</h2>
+              <h2 class="text-green text-strong">${nama_member}</h2>
+              <h2 class="text-amber-800 text-strong">${jumlah}</h2>
+
+            <div class="right">
+              <button class="green radius" onclick="ubah_status_pinjaman('${id}','1');" style="height: 60%">Terima</button>
+              <button class="red radius" onclick="ubah_status_pinjaman('${id}','2');" style="margin-left: 10px;height: 60%">Tolak</button>
+            </div>
+          </div>
+        <!-- close item -->
+      </div>
+    </div>
+  </div>
